@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="id">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta property="og:title" content="cheering tutut jrf 2026" />
+  <meta name="description" content="run your heart out" />
+  <meta property="og:image" content="https://i.im.ge/QQhz6ey/tutut.png" />
+  <title>Pace & Perasaan</title>
+  <link rel="stylesheet" href="./cheering.css">
+</head>
+
+<body>
+  <main class="site-shell">
+    <nav class="topbar">
+      <a class="brand" href="#home"><span class="brand-mark">♥</span> pace & perasaan</a>
+      <a class="nav-link" href="#hadiah">hadiah PB <span>↗</span></a>
+    </nav>
+
+    <section id="home" class="hero-section">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="eyebrow-dot"></span>pesan sederhana sebelum kamu berlari</p>
+        <h1>Run your <em>heart</em> out.</h1>
+        <p class="hero-intro">Untuk TuTuT, Tunjukkan energi terbaikmu dan taklukkan km dengan pace terbaikmu. Run fast,
+          run strong, and leave them behind! Go get your new PB!.</p>
+        <a class="primary-button" href="#cheers">Di baca cheering-nya TuT <span>↓</span></a>
+        <p class="micro-copy">✦ dibuat khusus untuk TuTuT</p>
+      </div>
+
+      <div class="hero-visual">
+        <div class="photo-frame"><img src="./gambar/tutut.png"
+            alt="Pelari menikmati lari di bawah cahaya matahari"><span class="photo-tag">for my favorite runner ♡ TuTuT</span>
+
+        </div>
+        <div class="pace-sticker"><span>keep</span><strong>moving</strong><i>♡</i></div>
+      </div>
+    </section>
+
+    <section id="cheers" class="section-block">
+      <div class="section-heading">
+        <p class="eyebrow">01 / tiny reminders</p>
+        <h2>Kalimat kecil,<br><em>semangat besar.</em></h2>
+      </div>
+
+      <div class="quote-card">
+        <div class="quote-number" id="quote-number">01<span>/03</span></div>
+
+        <div class="quote-content">
+          <blockquote id="quote">
+            ?“Pace boleh pelan, tapi pesonamu selalu ngebut.”
+          </blockquote>
+          <div class="quote-media">
+            <img id="quote-image" src="./gambar/20261023_090459.png" alt="Ilustrasi penambah semangat lari">
+          </div>
+        </div>
+        <button class="circle-button" id="next-cheer" aria-label="Lihat semangat berikutnya">▶</button>
+        <div class="quote-progress"><span id="progress"></span></div>
+      </div>
+    </section>
+
+    <section id="hadiah" class="reward-section section-block">
+      <div class="reward-icon">🏆</div>
+      <div class="reward-content">
+        <p class="eyebrow">02 / the little promise</p>
+        <h2>Kalau kamu <em>PB,</em><br>ada hadiah kecil.</h2>
+        <p>Masukkan waktu 10K terbaikmu. Kalau berhasil pecah personal best, hadiah ini resmi jadi milikmu.</p>
+        <div class="pb-form"><label for="pb-time">Waktu PB 10K kamu</label>
+          <div class="input-row"><input id="pb-time" type="number" min="1" max="90"
+              placeholder="00:00"><span>menit</span><button id="check-pb">cek janji <span>→</span></button></div>
+          <p class="form-message" id="form-message" role="status"></p>
+        </div>
+      </div>
+      <!-- <div class="gift-card" id="gift-card">
+        <div id="gift-icon">♧</div><strong id="gift-title">mystery reward</strong><span id="gift-subtitle">terkunci
+          sampai kamu PB</span><small id="gift-note"></small>
+      </div> -->
+      <div class="gift-card" id="gift-card">
+        <div id="gift-icon">♧</div>
+
+        <!-- ELEMEN GAMBAR BARU DI SINI -->
+        <img id="gift-img" src="./gambar/" alt="Hadiah PB"
+          style="display: none; max-width: 100%; border-radius: 8px; margin: 10px 0;">
+
+        <strong id="gift-title">mystery reward</strong>
+        <span id="gift-subtitle">terkunci sampai kamu PB</span>
+        <small id="gift-note"></small>
+      </div>
+    </section>
+    <footer><span class="footer">made with ♥ and a little crush</span><span>"I'm waiting for your finish post.".</span>
+    </footer>
+  </main>
+  <script src="./cheering.js"></script>
+</body>
+
+</html>
