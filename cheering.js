@@ -63,7 +63,7 @@ document.querySelector('#check-pb').addEventListener('click', () => {
   const message = document.querySelector('#form-message')
   const giftImage = document.querySelector('#gift-img')
 
-  if (value > 0 && value < 90) {
+  if (value > 59 && value < 90) {
     card.classList.add('is-unlocked')
     document.querySelector('#gift-icon').textContent = '✦'
     document.querySelector('#gift-title').textContent = 'Satu Toples Rempeyek'
@@ -75,7 +75,7 @@ document.querySelector('#check-pb').addEventListener('click', () => {
     giftImage.style.display = 'block'
 
   } else {
-    message.textContent = 'Masukkan waktu PB antara 1–90 menit dulu, ya.'
+    message.textContent = 'Masukkan waktu PB antara 59–90 menit dulu, ya.'
     card.style.backgroundImage = 'none';
   }
 });
